@@ -18,31 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: JEKYLL X BULMA
-email: whyherro@nativvstudios.com
+title: Looi Kai Wen
+email: kaiwen98@gmail.com
 author:
-  name: Nativv Studios
-  about:
+  name: Looi Kai Wen
+  about: I am a Year 4 Computer Engineering Student in NUS! I like good, clean and scalable code, and am interested in systems design and web development. I am also a tinker at heart, and am deeply interested in the Internet Of Things field!
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my personal website! I am Looi Kai Wen, a Year 4 Computer Engineering Student in NUS! I like good, clean and scalable code, and am interested in systems design and web development. I am also a tinker at heart, and am deeply interested in the Internet Of Things field!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 contacts:
   - title: twitter 
-    url: 'https://twitter.com/whyherro1'
+    url: 'https://twitter.com/okai_iwen'
   - title: github
-    url:  'https://github.com/nativvstudios'
+    url:  'https://github.com/kaiwen98'
   # - title: facebook
   #   url: 'https://example.com/@jekyllrb'
-  # - title: instagram
-  #   url: 'https://example.com/@jekyllrb'
-  # - title: linkedin
-  #   url: 'https://example.com/@jekyllrb'
+  - title: instagram
+    url: 'https://instagram.com/okai_iwen'
+  - title: linkedin
+    url: 'https://example.com/@jekyllrb'
   # - title: youtube
   #   url: 'https://example.com/@jekyllrb'
   # - title: twitch
@@ -56,7 +54,7 @@ contacts:
   # - title: slack
   #   url: 'https://example.com/@jekyllrb'
   - title: email
-    url: mailto:whyherro@nativvstudios.com
+    url: mailto:kaiwen98@gmail.com
 
 # Build settings
 theme: minima

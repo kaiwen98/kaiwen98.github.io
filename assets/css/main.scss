@@ -2,7 +2,7 @@
 --- 
 
 
-$navbar-font-color: white;
+$navbar-font-color: black;
 $background-dark-gray: #23262a;
 $tiles-background: #2c3037;
 
@@ -22,12 +22,28 @@ body {
 
 }
 
+.hero-body {
+    padding: 0;
+}
 
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: turquoise;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.is-round-rec {
+    border-radius: 2rem;
+}
 
 .hero.is-dark {
     background-color: $background-dark-gray;
     .navbar {
-
+        background-color: turquoise;
         .navbar-brand {
 
             .title {
@@ -36,13 +52,35 @@ body {
             }
         }
 
+        .navbar-start {
+            color: $navbar-font-color;
+        }
+
         .navbar-item {
             &.has-dropdown {
                 color: $navbar-font-color;
             }
+
+            &:hover {
+                background-color: white;
+            }
+        }
+        .navbar-link {
+            &.has-dropdown {
+                color: $navbar-font-color;
+            }
+
+            &:hover {
+                background-color: white;
+            }
+        }
+
+        .navbar-burger {
+            color: $navbar-font-color !important;
         }
 
         .navbar-dropdown {
+
             color: black;
 
             .navbar-item {

@@ -27,11 +27,13 @@ body {
 }
 
 
-
+.align-right {
+    align-items: left;
+}
 
 .hero-body {
 	.container {
-		max-width: 700px;
+		max-width: 200px;
 	}
 	.title {
 		color: hsl(192,17%,99%) !important;

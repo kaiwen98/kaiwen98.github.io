@@ -1,31 +1,19 @@
 ---
 layout: post
-title:  Check out my projects!
+title:  "Remote-control LiDAR Search-And-Rescue Vehicle"
 date:   2022-02-20 23:35:45 -0400
 categories: jekyll update
-image: "https://picsum.photos/1024?random=2"
+image: "/assets/images/alex1.png"
+summary: "Dabbled with SSH, TLS, ROS Programming and Bare-Metal programming to build a search-and-rescue robot."
 
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Introduction
 
-`YEAR-MONTH-DAY-title.MARKUP`
+The robot consists of a `Raspberry Pi 4 Model B` and an `Arduino Uno`, as well as a LiDAR module.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Contributions
 
-Jekyll also offers powerful support for code snippets:
+Programmed the Raspberry Pi in C to enable the following features of the robot:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+1.  Interfacing of LiDAR driver code in C++ to support selective disabling of motor spin to reduce power consumption. 

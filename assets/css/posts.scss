@@ -45,7 +45,7 @@ body {
 	}
 }
 .features {
-	padding: 5rem 0;
+	//padding: 5rem 0;
 }
 .box.cta {
 	border-radius: 0;
@@ -86,6 +86,9 @@ body {
     background-color: #2c303a;
     color: #99aab5;
     margin-bottom: 1.5rem;
+    height: 20vh;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
 
 	.content {
         max-height: 100%;
@@ -273,6 +276,14 @@ body {
   color: var(--white-2);
 }
 
+.card-modal-content {
+  height: 90vh;
+}
+
+.card-modal-container {
+  width: 40vw;
+}
+
 footer {
 	li {
 		&:before {
@@ -284,3 +295,5 @@ footer {
 		}
 	}
 }
+
+

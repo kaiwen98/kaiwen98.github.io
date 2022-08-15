@@ -16,7 +16,7 @@
                 </div>
                 <div class="card-content  modal-button" data-target="modal-card{{j}}">
                     <div class="content">
-                        <h3>{{ post.title }}</h3>
+                        <h4>{{ post.title }}</h4>
                         <p>{{ post.summary }}</p>
                         <form action="{{ post.url | relative_url }}">
                             <input class="button is-link modal-button" type="submit" value="Go to Post" />
@@ -49,7 +49,7 @@
     {% assign post = site.posts[i] %}
     <div id="modal-card{{i}}" class="modal modal-fx-3dSlit">
         <div class="modal-background"></div>
-        <div class="modal-content is-tiny">
+        <div class="modal-content is-large">
             <!-- content -->
             <div class="card">
                 <div class="card-image">

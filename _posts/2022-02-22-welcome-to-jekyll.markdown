@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll! 1"
+title:  "Data Analytics of Water Meter Data"
 date:   2022-02-22 23:35:45 -0400
 categories: jekyll update
-image: "https://picsum.photos/1024"
+image: "/assets/images/ee4211_1.png"
+summary: "Examined anomalies in water meter data in the US with rigorous prediction models."
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

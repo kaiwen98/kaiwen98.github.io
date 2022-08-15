@@ -1,30 +1,30 @@
 ---
 layout: post
-title:  "Testing post order!"
+title:  "Augmented Reality Laser Tag System"
 date:   2022-02-23 19:35:45 -0400
 categories: jekyll update
-image: "https://picsum.photos/1024?random=6"
+image: "/assets/images/cg4002_5.jpg"
+summary: "Developed a laser gun, target and a motion sensing handband as part of a large-scale AR physical game."
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Introduction
 
-`YEAR-MONTH-DAY-title.MARKUP`
+The `Computer Engineering Capstone Project` requires the creation of an AR game system, where the software visualisation must synchronise with real-time sensor events to play out a shooter game.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Out of the 5 possible components, I contributed towards the `Hardware component` heavily. I also assisted the other members in their components to ensure smooth development in the project.
 
-Jekyll also offers powerful support for code snippets:
+# Contributions
+1. Designed the prototype, circuit layout andfinal design of the laser guns, motion sensing handbands and laser targets. 
+* The battery solution for each device is designed based on the nature of use; lithium ion batteries are used together with buck converters to provide a reliable power supply based on the energy consumption of the devices.
+* The `laser gun` incorporates a set of Lithium Ion battery pack, laser diode and IR emitting diode to ensure long-range detection and ease of aim.
+* The `motion-sensing handbands` incorporates the accelerometer on the `MPU6050` to generate accelerometer readings. The readings are then relayed to the neural network model to predict the arm movement.
+* The `laser target` incorporates an IR receiving diode to receive IR emissions. The firmware of the device incorporates a state machine to handle different events based on the encoded message of the gun.
+1. Assisted my teammates in other tasks, including:
+* Created a method to record accelerometer readings based on a button hold.
+* Assisted in setting up a `SSH tunnel` over the NUS sunfire server through the private network to bypass the firewall.
+* Assisted in setting up the `MQTT broker` to work with the Unity application.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+

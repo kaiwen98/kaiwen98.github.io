@@ -1,4 +1,4 @@
-<nav class="navbar" role="navigation" aria-label="main navigation"> 
+<nav class="navbar navbar-fixed" role="navigation" aria-label="main navigation"> 
 
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ "/" | relative_url }}">
@@ -19,8 +19,8 @@
           Home
         </a>
   
-        <a class="navbar-item" href="/doc">
-          Documentation
+        <a class="navbar-item" onclick="document.querySelector('#projects').scrollIntoView({behavior: 'smooth'})">
+          Projects
         </a>
   
         <div class="navbar-item has-dropdown is-hoverable">
@@ -29,8 +29,8 @@
           </a>
   
           <div class="navbar-dropdown">
-            <a class="navbar-item sub-menu-item" href="/about">
-              About
+            <a class="navbar-item sub-menu-item" href="#projects">
+              Projects
             </a>
             <a class="navbar-item sub-menu-item">
               Jobs
@@ -46,17 +46,17 @@
         </div>
       </div>
   
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-link">
-              <strong>Sign up</strong>
-            </a>
-            <a class="button is-light">
-              Log in
-            </a>
-          </div>
-        </div>
-      </div>
+      <!--<div class="navbar-end">-->
+        <!--<div class="navbar-item">-->
+          <!--<div class="buttons">-->
+            <!--<a class="button is-link">-->
+              <!--<strong>Sign up</strong>-->
+            <!--</a>-->
+            <!--<a class="button is-light">-->
+              <!--Log in-->
+            <!--</a>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
     </div>
   </nav>

@@ -20,7 +20,6 @@
                             height: 30rem;
                             width: 100vw;
                             ">
-
                         <div 
                          style="
                                 position: absolute;
@@ -87,19 +86,19 @@
                                 onload=`javascript:this.parentElement.style.height = (this.height * 0.9)+\'px\';`
                                 style="
                                        width: 100%;
-                                       height: calc(100vh - 3.25rem);
+                                       height: 100vh;
                                        object-fit: cover;
                                        object-position: 0 8%;">
                         </div>
 
                         <div 
                                 style="
-                                       background-image: linear-gradient(rgba(255,255,255,0) 80%, rgba(255, 255, 255, 1)); 
+                                       background-image: linear-gradient(rgba(255,255,255,0) 80%, rgba(35, 38, 42, 1)); 
                                        background-size: 100%; 
                                        position: absolute;
                                        z-index: 2;
                                        width: 100vw;
-                                       height: calc(100vh - 3.25rem);">
+                                       height: 100vh;">
                         </div>
                     </div>
 
@@ -111,8 +110,8 @@
 
         <section style="margin-top: 5rem;">
             <div class="columns is-mobile">
-                <div class="column is-half is-offset-one-quarter has-text-centered is-centered is-round-rec" style="background:turquoise;">
-                    <h1 class="title is-2">Projects</h1>
+                <div class="sticky column is-half is-offset-one-quarter has-text-centered is-centered is-round-rec" style="background:turquoise;">
+                    <h1 class="title is-2 content-heading" id="projects">Projects</h1>
                 </div></div></section>
                 {% include posts.html %}
 
@@ -126,15 +125,10 @@
 
                 <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-                <script src='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+                <script src='https://c
+                dnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
                 <script src="../assets/js/wild.js"></script>
-                <script>
-                    document.addEventListener("DOMContentLoaded", function() {
-                                            //The first argument are the elements to which the plugin shall be initialized
-                                            //The second argument has to be at least a empty object or a object with your desired options
-                                            OverlayScrollbars(document.querySelectorAll("body"), { });
-                                        });
-                </script>  
+                <script src="../assets/js/custom.js"></script>
                 {% include footer.html %}
 
 

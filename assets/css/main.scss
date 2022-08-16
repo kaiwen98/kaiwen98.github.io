@@ -163,3 +163,12 @@ body {
         }
     }
 }
+
+div.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  height: 4rem !important
+}

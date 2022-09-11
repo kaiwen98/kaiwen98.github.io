@@ -3,7 +3,7 @@ layout: post
 title:  Indoor Positioning System - EGSC
 date:   2022-02-20 23:35:45 -0402
 categories: jekyll update
-image: "/assets/images/geofencing_2.png"
+image: "./assets/images/geofencing_2.png"
 summary: "Designed the software architecture of an Indoor Positioning System with Minew Sensors."
 
 ---

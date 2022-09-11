@@ -3,7 +3,7 @@ layout: post
 title:  "Sitting Posture Monitoring System"
 date:   2022-02-21 23:35:45 -0400
 categories: jekyll update
-image: "/assets/images/cs3237_5.png"
+image: "./assets/images/cs3237_5.png"
 summary: "Implemented the firmware for the TI Sensortag that incorporates the Madgwick Orientation Filter to generate quaternions for sitting posture prediction."
 ---
 <iframe src="https://drive.google.com/file/d/1e3L8HpugmPv1I2WuMheo2tlNAHQhAFNR/preview" width="640" height="480" allow="autoplay"></iframe>

@@ -3,7 +3,7 @@ layout: post
 title:  Seat Occupancy System with ESP32
 date:   2022-02-20 23:35:45 -0401
 categories: jekyll update
-image: "/assets/images/spacey_1.png"
+image: "./assets/images/spacey_1.png"
 summary: "Developed a Wireless Sensor Network with ESP32 Sensor Motes and Capacitive Touch Sensors."
 ---
 <iframe src="https://drive.google.com/file/d/1Cx-rOmargVxLW3WJ7sgyGr5JKFSOAewz/preview" width="640" height="480" allow="autoplay"></iframe>

@@ -3,7 +3,7 @@ layout: post
 title:  "Data Analytics of Water Meter Data"
 date:   2022-02-22 23:35:45 -0400
 categories: jekyll update
-image: "/assets/images/ee4211_3.png"
+image: "./assets/images/ee4211_3.png"
 summary: "Examined anomalies in smart gas meter data in the US with rigorous prediction models."
 ---
 # Introduction

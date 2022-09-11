@@ -3,7 +3,7 @@ layout: post
 title:  "Augmented Reality Laser Tag System"
 date:   2022-02-23 19:35:45 -0400
 categories: jekyll update
-image: "/assets/images/cg4002_5.jpg"
+image: "./assets/images/cg4002_5.jpg"
 summary: "Developed a laser gun, target and a motion sensing handband as part of a large-scale AR physical game."
 ---
 <iframe src="https://drive.google.com/file/d/1791XbGgbsE5xFwCqnMUGLiSBpF7O42-Z/preview" width="640" height="480" allow="autoplay"></iframe>

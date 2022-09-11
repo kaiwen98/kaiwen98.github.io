@@ -3,7 +3,7 @@ layout: post
 title:  Remote control car with RTOS
 date:   2022-02-20 23:35:45 -0403
 categories: jekyll update
-image: "/assets/images/cg2271.jpg"
+image: "./assets/images/cg2271.jpg"
 summary: "Developed a multithreaded firmware on the KL25Z for a remote controlled car."
 ---
 

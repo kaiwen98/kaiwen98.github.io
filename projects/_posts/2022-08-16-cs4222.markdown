@@ -3,7 +3,7 @@ layout: post
 title:  "Contact Tracing with TI SensorTag"
 date:   2022-02-19 23:35:45 -0400
 categories: jekyll update
-image: "/assets/images/cs4222_2.jpeg"
+image: "./assets/images/cs4222_2.jpeg"
 summary: "Implemented quora-based discovery algorithm using Contiki and Cooja Network Simulator."
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  Machine Learning with Housing Prices
 date:   2022-02-20 23:35:45 -0403
 categories: jekyll update
-image: "/assets/images/cs3244_1.jpg"
+image: "./assets/images/cs3244_1.jpg"
 summary: "Examined the explainability of various predictive machine learning models on historical housing prices"
 ---
 # Introduction

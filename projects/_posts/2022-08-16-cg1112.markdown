@@ -3,7 +3,7 @@ layout: post
 title:  "Remote-control LiDAR Search-And-Rescue Vehicle"
 date:   2022-02-20 23:35:45 -0400
 categories: jekyll update
-image: "/assets/images/alex1.png"
+image: "./assets/images/alex1.png"
 summary: "Developed with SSH, TLS, ROS Programming and Bare-Metal programming to build a search-and-rescue robot."
 
 ---

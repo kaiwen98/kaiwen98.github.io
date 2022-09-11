@@ -164,11 +164,24 @@ body {
     }
 }
 
-div.sticky {
+.sticky {
   position: sticky;
-  top: 0;
+  top: 10px;
+  z-index: 30;
 }
 
 .navbar {
   height: 4rem !important
+}
+
+.title {
+  color:black !important;
+}
+
+.navbar-menu {
+  padding-right: 10px;
+}
+
+iframe {
+  width: 100%;
 }

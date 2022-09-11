@@ -1,137 +1,136 @@
 
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body>
-        <section class="hero is-dark is-fullheight ">
+  {% include head.html %}
+  <body>
+    <section class="hero is-dark is-fullheight ">
 
-            <div class="hero-head">
-                {% include header.html %}
+      <div class="hero-head">
+        {% include header.html %}
+
+      </div>
+
+
+      <div class="hero-body" style="align-items: start;">
+        <div class="has-text-centered is-centered" >
+          <div 
+            class="has-text-centered is-centered" 
+            style="
+            position: relative;
+            height: 30rem;
+            width: 100vw;
+            ">
+            <div 
+              style="
+              position: absolute;
+              width: 100vw;
+              top: 5rem;
+              z-index: 3;">
+
+              <figure class="avatar image">
+                <a href="{{ "/" | relative_url }}">
+                  <img class="is-rounded" src="../assets/images/profile_picture.jpeg" alt="">
+                </a>
+              </figure>
+
+              <h1 class="title is-1" style="margin-bottom: 0;">
+                {{ site.title }}
+              </h1>
+
+              <div class="socials" style="margin-bottom: 3rem;">
+                {% for i in site.contacts %}
+                <a href="{{i.url}}" target="_blank">
+                  <i class="fa-brands fa-{{i.title}} fa-lg is-size-4" style="margin-left: 0.5rem; margin-right: 0.5rem;"></i>
+                </a>
+
+                {%endfor%}
+
+                {% assign email = site.contacts | where:"title", "email"%}
+                {% for item in email %}
+                {% if item.title == "email" %}
+                <a href="{{ item.url }}" target="_blank">
+                  <i class="fa-solid fa-envelope fa-lg" style="margin-left: -4px;"></i>
+                </a>
+                {% endif %}
+                {%endfor%}
+
+              </div>
+
+              <div 
+                style="
+                white-space: pre-line;
+                margin: 0 20rem 0 20rem;
+                border-radius: 5rem;
+                background: rgb(0,0,0,0.8);">
+                <h2 class="subtitle is-4" style="padding: 0;">
+                  {{ site.description }}
+                </h2>
+              </div>
 
             </div>
 
 
-            <div class="hero-body" style="align-items: start;">
-                <div class="has-text-centered is-centered" >
-                    <div 
-                     class="has-text-centered is-centered" 
-                     style="
-                            position: relative;
-                            height: 30rem;
-                            width: 100vw;
-                            ">
-                        <div 
-                         style="
-                                position: absolute;
-                                width: 100vw;
-                                top: 5rem;
-                                z-index: 3;">
+            <div 
+              style="
+              position: absolute; 
+              z-index: 1; 
+              width: 100vw; 
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 0;
+              top: 0;">
 
-                            <figure class="avatar image">
-                                <a href="{{ "/" | relative_url }}">
-                                    <img class="is-rounded" src="../assets/images/profile_picture.jpeg" alt="">
-                                </a>
-                            </figure>
-
-                            <h1 class="title is-1" style="margin-bottom: 0;">
-                                {{ site.title }}
-                            </h1>
-
-                            <div class="socials" style="margin-bottom: 3rem;">
-                                {% for i in site.contacts %}
-                                <a href="{{i.url}}" target="_blank">
-                                    <i class="fa-brands fa-{{i.title}} fa-lg is-size-4" style="margin-left: 0.5rem; margin-right: 0.5rem;"></i>
-                                </a>
-
-                                {%endfor%}
-
-                                {% assign email = site.contacts | where:"title", "email"%}
-                                {% for item in email %}
-                                {% if item.title == "email" %}
-                                <a href="{{ item.url }}" target="_blank">
-                                    <i class="fa-solid fa-envelope fa-lg" style="margin-left: -4px;"></i>
-                                </a>
-                                {% endif %}
-                                {%endfor%}
-
-                            </div>
-
-                            <div 
-                                style="
-                                    white-space: pre-line;
-                                    margin: 0 20rem 0 20rem;
-                                    border-radius: 5rem;
-                                    background: rgb(0,0,0,0.8);">
-                                <h2 class="subtitle is-4" style="padding: 0;">
-                                    {{ site.description }}
-                                </h2>
-                            </div>
-
-                        </div>
-
-
-                        <div 
-                                style="
-                                       position: absolute; 
-                                       z-index: 1; 
-                                       width: 100vw; 
-                                       margin-left: auto;
-                                       margin-right: auto;
-                                       left: 0;
-                                       right: 0;
-                                       top: 0;">
-
-                            <img 
-                                src="assets/images/singapore.jpg" 
-                                onload=`javascript:this.parentElement.style.height = (this.height * 0.9)+\'px\';`
-                                style="
-                                       width: 100%;
-                                       height: 100vh;
-                                       object-fit: cover;
-                                       object-position: 0 8%;">
-                        </div>
-
-                        <div 
-                                style="
-                                       background-image: linear-gradient(rgba(255,255,255,0) 80%, rgba(35, 38, 42, 1)); 
-                                       background-size: 100%; 
-                                       position: absolute;
-                                       z-index: 2;
-                                       width: 100vw;
-                                       height: 100vh;">
-                        </div>
-                    </div>
-
-
-
-                </div>
+              <img 
+                src="assets/images/singapore.jpg" 
+                onload=`javascript:this.parentElement.style.height = (this.height * 0.9)+\'px\';`
+                style="
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
+                object-position: 0 8%;">
             </div>
-        </section>
 
-        <section style="margin-top: 5rem;">
-            <div class="columns is-mobile">
-                <div class="sticky column is-half is-offset-one-quarter has-text-centered is-centered is-round-rec" style="background:turquoise;">
-                    <h1 class="title is-2 content-heading" id="projects">Projects</h1>
-                </div></div></section>
-                {% include posts.html %}
-
-                <div class="column is-half is-offset-one-quarter has-text-centered is-centered is-round-rec" style="background:turquoise;">
-                    <h1 class="title is-2">Work Experience</h1>
-                </div></div></section>
-                {% include works.html %}
+            <div 
+              style="
+              background-image: linear-gradient(rgba(255,255,255,0) 80%, rgba(35, 38, 42, 1)); 
+              background-size: 100%; 
+              position: absolute;
+              z-index: 2;
+              width: 100vw;
+              height: 100vh;">
+            </div>
+          </div>
 
 
 
+        </div>
+      </div>
+    </section>
 
-                <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-                <script src='https://c
-                dnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
-                <script src="../assets/js/wild.js"></script>
-                <script src="../assets/js/custom.js"></script>
-                {% include footer.html %}
+    <section class="sticky" style="margin-top: 5rem;">
+      <div class="columns is-mobile">
+        <div class="column is-half is-offset-one-quarter has-text-centered is-centered is-round-rec" style="background:turquoise;">
+          <h1 class="title is-2">Work Experiences</h1>
+        </div></div></section>
+        {% include works.html %}
+
+    <section class="sticky" style="margin-top: 5rem;">
+      <div class="columns is-mobile">
+        <div class="column is-half is-offset-one-quarter has-text-centered is-centered is-round-rec" style="background:turquoise;">
+          <h1 class="title is-2 content-heading" id="projects">Projects</h1>
+        </div></div></section>
+        {% include posts.html %}
+
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src='https://c
+    dnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>  
+    <script src="../assets/js/wild.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    {% include footer.html %}
 
 
 
-    </body>
+  </body>
 </html>

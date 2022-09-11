@@ -1,10 +1,7 @@
 <nav class="navbar navbar-fixed" role="navigation" aria-label="main navigation"> 
 
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{ "/" | relative_url }}">
-        <h2 class="title is-4">{{ site.title }}</h2>
-        <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
-      </a>
+
   
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -46,7 +43,11 @@
         </div>
       </div>
   
-      <!--<div class="navbar-end">-->
+      <div class="navbar-end">
+      <a class="navbar-item" href="{{ "/" | relative_url }}">
+        <h2 class="title is-4">{{ site.title }}</h2>
+        <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+      </a>
         <!--<div class="navbar-item">-->
           <!--<div class="buttons">-->
             <!--<a class="button is-link">-->
@@ -57,6 +58,6 @@
             <!--</a>-->
           <!--</div>-->
         <!--</div>-->
-      <!--</div>-->
+      </div>
     </div>
   </nav>

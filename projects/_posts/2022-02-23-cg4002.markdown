@@ -6,7 +6,7 @@ categories: jekyll update
 image: "/assets/images/cg4002_5.jpg"
 summary: "Developed a laser gun, target and a motion sensing handband as part of a large-scale AR physical game."
 ---
-
+<iframe src="https://drive.google.com/file/d/1791XbGgbsE5xFwCqnMUGLiSBpF7O42-Z/preview" width="640" height="480" allow="autoplay"></iframe>
 # Introduction
 
 The `Computer Engineering Capstone Project` requires the creation of an AR game system, where the software visualisation must synchronise with real-time sensor events to play out a shooter game.
@@ -23,6 +23,12 @@ Out of the 5 possible components, I contributed towards the `Hardware component`
 * Created a method to record accelerometer readings based on a button hold.
 * Assisted in setting up a `SSH tunnel` over the NUS sunfire server through the private network to bypass the firewall.
 * Assisted in setting up the `MQTT broker` to work with the Unity application.
+
+# Reflections
+1. Be open to ideas by other developers; you would never know until you try!
+1. Do not settle for substandard products; consider all the needs and requirements of the product and what solution can reliably tackle them all!
+1. Upon a mind-expanding experience working with my fellow colleagues, I was inspired to pick up Neovim for software development work :^)
+
 
 
 

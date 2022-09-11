@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Data Analytics of Water Meter Data"
+date:   2022-02-22 23:35:45 -0400
+categories: jekyll update
+image: "/assets/images/ee4211_3.png"
+summary: "Examined anomalies in smart gas meter data in the US with rigorous prediction models."
+---
+# Introduction
+This project involves the study of smart gas meter data collected by various IOT devices and accummulated into a gateway. We trained and validated various models including ARIMA, Multilayer Perceptron and LSTM to compare the training performances between the tree models. We concluded that for the purpose of prediciting future gas meter prices, Multilayer Perceptron provided the best performance. The feed-forward network and back-propagation algorithm associated with the model enabled it to successfully learn non-linear training data to predict forward in time.
+
+![Data analysis of smart meter data](/assets/images/ee4211_1.png)
+
+# Contributions
+1. Conducted research on the ARIMA model and published findings into a notebook. 
+![Data analysis of smart meter data](/assets/images/ee4211_4.png)
+1. Wrote code to clean the training data using data filtering techniques, such as list comprehension or regex matching.
+1. Conducted research on the various anomalies found in the dataset, by including temperature and rain data found online to draw correlation between weather conditions and days of suspected malfunctionsin the smart meter.
+
+# Reflections
+1. Sometimes, data interpolation is not the way to go. It may conceal valuable information that are worthy of consideration; by ignoring gaps in data you risk the opportunity to investigate why they might be the way they are. In this case, data interpolation would have concealed the fact that the smart meter may be faulty.

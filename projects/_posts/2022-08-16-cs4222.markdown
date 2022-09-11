@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Contact Tracing with TI SensorTag"
+date:   2022-02-19 23:35:45 -0400
+categories: jekyll update
+image: "/assets/images/cs4222_2.jpeg"
+summary: "Implemented quora-based discovery algorithm using Contiki and Cooja Network Simulator."
+---
+
+# Introduction
+
+The project requirement is to program firmware for TI SensorTags such that each sensor is able to detect another sensor that is proximate to itself within a certain period of time. If the sensor fulfills said condition, both sensors are said to be in close contact.
+
+# Contributions
+
+![Cooja](/assets/images/cs4222_1.jpg)
+
+1. Contributed to the implementation of the Quorum-Based Discovery Algorithm, based on the following [paper](https://ieeexplore.ieee.org/document/1019261).
+1. Worked with the Contiki OS to program the TI Sensortags, using protothreads and RTimers to implement a power-efficient state machine.
+1. Used Cooja to simulate network traffic so that the optimal scan period and algorithm can be derived in view of battery life, duty cycle and reliability. 
+
+# Reflection
+* Reliability is the cornerstone of network devices!
+* Naming of variables and commenting helps to communicate your algorithms smoothly, especially with other developers!

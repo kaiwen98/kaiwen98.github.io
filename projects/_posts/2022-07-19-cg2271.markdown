@@ -1,0 +1,23 @@
+---
+layout: post
+title:  Remote control car with RTOS
+date:   2022-02-20 23:35:45 -0403
+categories: jekyll update
+image: "/assets/images/cg2271.jpg"
+summary: "Developed a multithreaded firmware on the KL25Z for a remote controlled car."
+---
+
+<iframe src="https://drive.google.com/file/d/1Nelf1HlM05bZT2SYUDdajZK_zgTmcXN6/preview" width="640" height="480" allow="autoplay"></iframe>
+
+# Introduction
+Programmed firmware for a remote-control robot using `Keil v5 IDE` and the CMSIS-RTOS2 library. Implemented a multi-threaded program with synchronisation using message queues and thread flags.
+
+# Contributions
+1. Programmed a majority of the firmware, including thread synchronisation, interfacing with ultrasonic sensors, LED arrays, motor control and self-driving mode.
+1. Experimented with memory allocation and low-level device firmware so as to allow clean implementation of library functions from bare-metal code.
+1. Influenced my team to use Lithium Ion batteries, which provided a good supply of current to allow the motors to run at higher PWM frequency.
+
+# Reflection
+* Battery is everything.
+* It is better to solder your circuitory so that electrical contacts do not come loose.
+

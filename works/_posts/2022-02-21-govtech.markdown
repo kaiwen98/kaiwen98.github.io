@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Contact Tracing with TI SensorTag"
-date:   2022-02-19 23:35:45 -0400
+title:  "GovTech - Software Engineer Intern"
+date:   2022-02-21 23:35:45 -0400
 categories: jekyll update
-image: "/assets/images/cs4222_1.jpg"
-summary: "Implemented quora-based discovery algorithm using Contiki and Cooja Network Simulator."
+image: "/assets/images/work_govtech.png"
+summary: "Smart Office Implementation and Deployment with MERN techstack, Camunda BPMN engine, Keycloak and Web development frameworks."
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

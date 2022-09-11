@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Machine Learning with Housing Prices
+date:   2022-02-20 23:35:45 -0403
+categories: jekyll update
+image: "/assets/images/cs3244_1.jpg"
+summary: "Examined the explainability of various predictive machine learning models on historical housing prices"
+---
+# Introduction
+This project involves the investigation of the explainability of various tree-based supervised learning models in the prediction of housing prices across an array of features. The models subjected to investigation include XGBoost, Random Forest and Multiple Linear Regression with TreeSHAP augmentation.
+
+We concluded that generally, the approach with lower model complexity tend to sacrifice accuracy for explanability. However, the use of advanced explaination techniques such as SHAPley values can reveal the impact of each feature in the prediction results using game theoretic approaches, without full dependence on the model. This means that a model with greater complexity can be used, and the explanability of the results can be derived in complement by the SHAPley explanability model. The findings of our research can help Singaporeans gain a better understanding of the relation between various common factors such as house pricing, floor area and location and the pricing of HDB blocks.
+
+# Contributions
+1. Suggested the project topic and narrowed down the investigation to tree-based model, to compare explanability between decision rules and SHAPley explanability model.
+1. Conducted research on SHAP, and used it on the XGBoost model to derive SHAPley values to explain the findings.
+1. Contributed heavily to report writing and review.
+
+# Reflections
+1. Explainability is a very important factor in machine learning; there need be an element of trust built between the model and the user so that its results can be relied upon. Model explainability is also valuable in drawing insights from the learning process of the model, which can then be applied widely in similar areas of research and investigation.
+
+# Report
+<iframe src="https://drive.google.com/file/d/1MrESQ-Cl1dNHbNybtBMtSkNqn0ZjCOTa/preview" width="640" height="480" allow="autoplay"></iframe>
+

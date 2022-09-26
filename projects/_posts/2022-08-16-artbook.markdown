@@ -1,0 +1,26 @@
+---
+layout: post
+title:  Artbook Generation with Python
+date:   2022-02-20 23:35:45 -0401
+categories: jekyll update
+image: "./assets/images/artbook_1.png"
+summary: "Developed an Artbook Generator using Google Sheets and Drive APIs and Python."
+---
+# Introduction
+[Source Code](https://github.com/kaiwen98/artbook_generator)
+<br>
+Modernised the painful process of compiling artbook pages on Photoshop to a powerful Python script. The program extracts image data from responses towards a Google Form, checks against registration details, and programmatically compiles all entries into artbooks for online distribution.
+
+# Contributions
+- Wrote the entire program from scratch
+- **Technical Skills**: Win32ComAPI with Photoshop, Python Image Library, Pandas, GSpread and PyDrive.
+
+
+
+# Reflections
+I was shocked that Photoshop can be scripted from a Python codebase. It turned out to be extremely convenient for this use case. 
+<br>
+
+<iframe src="https://drive.google.com/file/d/15KjAwa7AP76kxnmlSj49YgBtn3Nh3f0l/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<br>

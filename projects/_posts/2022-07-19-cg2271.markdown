@@ -7,10 +7,12 @@ image: "./assets/images/cg2271.jpg"
 summary: "Developed a multithreaded firmware on the KL25Z for a remote controlled car."
 ---
 
-<iframe src="https://drive.google.com/file/d/1Nelf1HlM05bZT2SYUDdajZK_zgTmcXN6/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 # Introduction
 Programmed firmware for a remote-control robot using `Keil v5 IDE` and the CMSIS-RTOS2 library. Implemented a multi-threaded program with synchronisation using message queues and thread flags.
+
+<iframe src="https://drive.google.com/file/d/1Nelf1HlM05bZT2SYUDdajZK_zgTmcXN6/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # Contributions
 1. Programmed a majority of the firmware, including thread synchronisation, interfacing with ultrasonic sensors, LED arrays, motor control and self-driving mode.

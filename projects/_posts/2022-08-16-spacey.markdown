@@ -6,13 +6,18 @@ categories: jekyll update
 image: "./assets/images/spacey_1.png"
 summary: "Developed a Wireless Sensor Network with ESP32 Sensor Motes and Capacitive Touch Sensors."
 ---
-<iframe src="https://drive.google.com/file/d/1Cx-rOmargVxLW3WJ7sgyGr5JKFSOAewz/preview" width="640" height="480" allow="autoplay"></iframe>
-# Introduction
 
-The robot consists of a `Raspberry Pi 4 Model B` and an `Arduino Uno`, as well as a LiDAR module.
+# Introduction
+[Source Code](https://github.com/kaiwen98/spacey)
+<br>
+Designed and developed a Seat Occupancy System in hawker centres as part of the NUS Orbital Program, complete with a working sensor network, Telegram Bot and a Desktop Map Editor. Inspired by lunch under social distancing measures during the COVID Pandemic.
+
+<iframe src="https://drive.google.com/file/d/1Cx-rOmargVxLW3WJ7sgyGr5JKFSOAewz/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # Contributions
+- Implemented a **cheap, low power and reliable BLE sensor network**, comprising of **ESP32 sensor motes** and implementing star topology for transmission of seat occupancy data.
+- Developed a desktop program to facilitate the conversion of seat occupancy data to a legible JPEG file for viewing and monitoring. Allows restaurant owners to upload their floor plan to launch to the backend for live occupancy updates.
+- **Technical Skills**: Telegram bot Python Library, C++, Python, Redis, Tkinter and Inno Setup Scripting Language. Knowledge with ESP32, battery design and Wireless Sensor Networks were also applied.
 
-Programmed the Raspberry Pi in C to enable the following features of the robot:
-
-1.  Interfacing of LiDAR driver code in C++ to support selective disabling of motor spin to reduce power consumption. 
+# Reflections
+This project sparked my interests in the Internet of Things. It also first proved to me that the world is full of problems that are waiting to be solved; we just need to open our eyes and get ready to take action!

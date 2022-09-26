@@ -5,28 +5,29 @@ date:   2022-02-20 23:35:45 -0402
 categories: jekyll update
 image: "./assets/images/geofencing_2.png"
 summary: "Designed the software architecture of an Indoor Positioning System with Minew Sensors."
-
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Introduction
+[Slides](https://docs.google.com/presentation/d/1qo3K-DUguBhCTPEX37VxLhvf6bw_X7V7nORZ7fTDXQQ/edit?usp=sharing)
+This project aims to track students within the Rainbow Centre on their location in real time. This involves the development of a mobile app, website and a sensor network to enable real-time geolocation via RSSI triangulation, then updating the results to the frontend interface.
 
-Jekyll requires blog post files to be named according to the following format:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D9T3exqOLec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-`YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Contributions
+- Proposed the overall architecture of the project.
+- Developed various CRUD endpoints to interface with **Firebase database**.
+- Implemented **SocketIO and MQTT server alongside the REST server** to communicate with both edge devices and
+client frontend in real time.
+- Optimised the sensor data processing with multiprocessing and queues; hence **effectively reducing sensor update
+interval from 4s to 0.5s**.
+- Developed various form pages, as well as a **map viewer** to insert and view sensors at their various positions **in real life, at real time**.
+- Deployed the frontend and backend on AWS Amplify and AWS EC2 container instances with **NGINX Reverse Proxy** for **load balancing** and **SSL certificate management**.
+- **Technical Skills**: Starlette, FastAPI, Gunicorn, SocketIO, AWS IoT SDK, Firebase Authentication, Firebase Real time
+Database and AsyncIO
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![Data analysis of smart meter data](/assets/images/geofencing_1.jpg)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+# Reflections
+1. Perhaps the most rewarding project I have undertaken. In the context where the safety of the children are time-sensitive, latency was everything. Looking back at the late nights spent designing the multiprocessing pipeline to reduce latency and research on NGINX to deploy the product to production stage, I am proud to say that I have learnt alot from my experience with EGSC.

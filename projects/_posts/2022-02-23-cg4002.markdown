@@ -6,12 +6,13 @@ categories: jekyll update
 image: "./assets/images/cg4002_5.jpg"
 summary: "Developed a laser gun, target and a motion sensing handband as part of a large-scale AR physical game."
 ---
-<iframe src="https://drive.google.com/file/d/1791XbGgbsE5xFwCqnMUGLiSBpF7O42-Z/preview" width="640" height="480" allow="autoplay"></iframe>
 # Introduction
 
 The `Computer Engineering Capstone Project` requires the creation of an AR game system, where the software visualisation must synchronise with real-time sensor events to play out a shooter game.
 
 Out of the 5 possible components, I contributed towards the `Hardware component` heavily. I also assisted the other members in their components to ensure smooth development in the project.
+
+<iframe src="https://drive.google.com/file/d/1791XbGgbsE5xFwCqnMUGLiSBpF7O42-Z/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # Contributions
 1. Designed the prototype, circuit layout andfinal design of the laser guns, motion sensing handbands and laser targets. 

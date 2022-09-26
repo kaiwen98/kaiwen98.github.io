@@ -7,17 +7,17 @@ image: "./assets/images/discord3.png"
 summary: "Developed a Discord Bot that can scrap artworks from various channels, wish birthdays, and run a gamified Art battle with point system"
 ---
 # Introduction
-
-The project requirement is to program firmware for TI SensorTags such that each sensor is able to detect another sensor that is proximate to itself within a certain period of time. If the sensor fulfills said condition, both sensors are said to be in close contact.
+[Source Code](https://github.com/kaiwen98/palettebot)
+<br>
+Created a Discord Bot to share my workload as the severely overworked secretary and chairperson of the Art division of the club.
 
 # Contributions
 
-![Cooja](/assets/images/cs4222_1.jpg)
-
-1. Contributed to the implementation of the Quorum-Based Discovery Algorithm, based on the following [paper](https://ieeexplore.ieee.org/document/1019261).
-1. Worked with the Contiki OS to program the TI Sensortags, using protothreads and RTimers to implement a power-efficient state machine.
-1. Used Cooja to simulate network traffic so that the optimal scan period and algorithm can be derived in view of battery life, duty cycle and reliability. 
+- Developed a Discord Bot to **automate administrative tasks** that fall under my purview as the Productions Director in NUS
+Comic and Animation Society.
+- The bot features tracking of birth dates, automated extraction of artworks from the Discord Channel, as well as running a
+month-long drawing activity **(Digitised Inktober)** with an elaborate point system.
+- **Technical Skills**: Discord API, Google Drive API, Google Sheet API, Numpy and Pandas.
 
 # Reflection
-* Reliability is the cornerstone of network devices!
-* Naming of variables and commenting helps to communicate your algorithms smoothly, especially with other developers!
+* There is a need to practice proper security protocols in sensitive projects, including ones that handle the use of API credentials, personal information and access to Google accounts. This project taught me to practice vigilance and be sensitive to potential caveats during the development process.

@@ -6,6 +6,7 @@ categories: jekyll update
 image: "./assets/images/ee4211_3.png"
 summary: "Examined anomalies in smart gas meter data in the US with rigorous prediction models."
 ---
+
 # Introduction
 This project involves the study of smart gas meter data collected by various IOT devices and accummulated into a gateway. We trained and validated various models including ARIMA, Multilayer Perceptron and LSTM to compare the training performances between the tree models. We concluded that for the purpose of prediciting future gas meter prices, Multilayer Perceptron provided the best performance. The feed-forward network and back-propagation algorithm associated with the model enabled it to successfully learn non-linear training data to predict forward in time.
 

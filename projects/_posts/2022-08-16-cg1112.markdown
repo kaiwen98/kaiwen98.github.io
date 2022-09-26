@@ -7,11 +7,13 @@ image: "./assets/images/alex1.png"
 summary: "Developed with SSH, TLS, ROS Programming and Bare-Metal programming to build a search-and-rescue robot."
 
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fcGkgArMV6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # Introduction
 
 Designed a robot consisting of a `Raspberry Pi 4 Model B` and an `Arduino Uno`, as well as a LiDAR module. The robot is capable of autonomous mapping of the environment using a spinning laser LiDAR module, and actuates motor controls based on commands sent from a remote computer over a SSL link.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fcGkgArMV6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Contributions
 

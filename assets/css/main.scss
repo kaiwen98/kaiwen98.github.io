@@ -98,6 +98,7 @@ body {
           font-size: 20px;
           color: white;
           transition: all 0.2s ease-in-out;
+          background: #000000;
       
           &:hover {
             transform: scale(1.2);
@@ -185,3 +186,54 @@ body {
 iframe {
   width: 100%;
 }
+
+.description-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .description-container {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+}
+
+.socials {
+    i {
+        font-size: 20px;
+        color: white;
+        transition: all 0.2s ease-in-out;
+    
+        &:hover {
+        transform: scale(1.2);
+        }
+    }
+
+    background: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .socials {
+    i {
+        font-size: 20px;
+        color: white;
+        transition: all 0.2s ease-in-out;
+    
+        &:hover {
+        transform: scale(1.2);
+        }
+    }
+
+    background: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    padding: 5px;
+    width: 60%;
+    }
+}
+
+

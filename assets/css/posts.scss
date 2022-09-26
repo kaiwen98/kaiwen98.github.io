@@ -86,7 +86,7 @@ body {
     background-color: #2c303a;
     color: #99aab5;
     margin-bottom: 1.5rem;
-    height: 20vh;
+    height: 30vh;
     overflow-y: hidden;
     text-overflow: ellipsis;
 
@@ -147,6 +147,7 @@ body {
         
           strong {
             font-weight: bold;
+            color: white !important;
           }
         
           ul {
@@ -281,7 +282,16 @@ body {
 }
 
 .card-modal-container {
-  width: 50vw;
+  width: 70vw;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card-modal-content {
+    height: 100%;
+  }
+  .card-modal-container {
+    width: 95vw;
+  }
 }
 
 .navbar-fixed {
@@ -301,6 +311,12 @@ footer {
 			color: #147efb;
 		}
 	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .media-content {
+    overflow-x: hidden !important;
+  }
 }
 
 

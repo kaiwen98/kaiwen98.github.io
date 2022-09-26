@@ -11,12 +11,12 @@
             <div class="card is-shady">
                 <div class="card-image">
                     <figure class="image is-4by3">
-                        <img src="{{ post.image }}" class="modal-button" data-target="modal-image{{j}}">
+                        <img src="{{ post.image }}" class="modal-button" data-target="modal-image-posts{{j}}">
                     </figure>
                 </div>
 
                 <form action="{{ post.url | relative_url }}">
-                <div class="card-content  modal-button is-link" data-target="modal-card{{j}}" type="submit">
+                <div class="card-content  modal-button is-link" data-target="modal-card-posts{{j}}" type="submit">
                     <div class="content">
                         <h6>{{ post.title }}</h6>
                         <p>{{ post.summary }}</p>
@@ -47,7 +47,7 @@
     {% assign max = site.categories.projects.size %}
     {% for i in (0..max) %}
     {% assign post = site.categories.projects[i] %}
-    <div id="modal-card{{i}}" class="modal modal-fx-3dSlit">
+    <div id="modal-card-posts{{i}}" class="modal modal-fx-3dSlit">
         <div class="modal-background"></div>
         <div class="modal-content is-large card-modal-container">
             <!-- content -->
@@ -57,7 +57,7 @@
                         <img src="{{ post.image }}" alt="butterfly">
                     </figure>
                 </div>
-                <div class="card-content card-modal-content">
+                <div class="card-content card-modal-content is-mobile">
                     <div class="media">
                         <div class="media-left">
                             <figure class="image is-48x48">
@@ -66,17 +66,12 @@
                         </div>
                         <div class="media-content">
                             <p class="title is-4">{{ post.title }}</p>
-                            <p class="subtitle is-6"><a href="https://github.com/nativvstudios">@{{ site.author.name }}</a></p>
+                            <p class="subtitle is-6"><a href="https://github.com/kaiwen98">@{{ site.author.name }}</a></p>
                         </div>
                     </div>
                     <div class="content">
                         {{ post.content }}
-                        {{i}}
-                        <a>@bulmaio</a>.
-                        <a href="#">#css</a>
-                        <a href="#">#responsive</a>
                         <br>
-                        <time datetime="{{ post.date }}">{{ post.date }}</time>
                     </div>
                 </div>
             </div>
@@ -86,7 +81,7 @@
     </div>
 
     <!-- Image modal -->
-    <div id="modal-image{{i}}" class="modal modal-fx-3dSlit">
+    <div id="modal-image-posts{{i}}" class="modal modal-fx-3dSlit">
         <div class="modal-background"></div>
         <div class="modal-content is-huge is-image">
             <!-- content -->
